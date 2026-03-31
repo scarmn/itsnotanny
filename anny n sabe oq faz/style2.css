@@ -140,7 +140,9 @@ list-style: none;
         height: 200px;
       }
       
+
 .container {
+margin: 0 auto;
 width: 900px;
 background-color: var(--cor-principal);
 padding: 20px;
