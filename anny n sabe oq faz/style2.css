@@ -6,15 +6,7 @@
 }
 
 .body {
-  background-image: 
-  linear-gradient(#fff8f8 1px, traparent 1px),
-  linear-gradient(90deg, #fff8f8 1px, traparent 1px);
-  background-color: 20px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 50px auto;
+  background-color: red;
 }
 
 .cabecalho {
@@ -140,13 +132,17 @@ list-style: none;
         height: 200px;
       }
       
-
 .container {
-margin: 0 auto;
-width: 900px;
-background-color: var(--cor-principal);
-padding: 20px;
-border-radius: 25px;
-border: 3px solid #ffb3f5;
-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+background-image: url(photos/download\ \(3\).jfif);
+background-size: 1000px;
+}
+  
+.quadrado {
+  margin: 0 auto;
+  width: 900px;
+  background-color: var(--cor-principal);
+  background-size: 1000px;
+  padding: 20px;
+  border-radius: 50px;
+  border: 3px solid #ffb3f5;
 }
