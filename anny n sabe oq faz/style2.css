@@ -1,13 +1,10 @@
 :root{
-  --cor-principal: #f8e3f5;
-  --cor-secundaria: #f3ecf2;
-  --cor-destaque: #fdcdf7;
+  --cor-principal: #f6d6cd;
+  --cor-secundari: #9d6153;
+  --cor-destaque: #fbf6ed;
 
 }
 
-.body {
-background-color: red;
-}
 
 .cabecalho {
   background-color: var(--cor-destaque) ;
@@ -29,9 +26,9 @@ display: inline-flex;
 .menu >ul{
   background-color: var(--cor-destaque);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  list-style: none;
+  list-style:none;
 }
 
 .menu_item >a{
@@ -42,7 +39,7 @@ font-size: 25px;
 font-weight: bold;
 line-height: 45px;
 font-variant: small-caps;
-list-style: none;
+list-style:none;
 }
 
   .menu_item > a:hover{
@@ -133,7 +130,7 @@ list-style: none;
     }
     
 .container {
-background-image: url(photos/download\ \(3\).jfif);
+background-image: url(photos/𝑵𝒆𝒘\ 𝒕𝒉𝒆𝒎𝒆\ 𝒄𝒐𝒎𝒊𝒏𝒈___.jfif);
 background-size: 1000px;
 }
 
